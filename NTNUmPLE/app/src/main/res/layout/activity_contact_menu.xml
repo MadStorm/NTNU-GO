@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:gravity="right">
+
+            <ImageButton
+                android:id="@+id/imageButtonFaculty"
+                android:background="@drawable/faculty"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewFaculty"
+                android:text="Faculties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:width="120dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonOrakel"
+                android:background="@drawable/orakelicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewOrakel"
+                android:text="Orakel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:width="120dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonAkademika"
+                android:background="@drawable/akademikaicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewAkademika"
+                android:text="Akademika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:width="120dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:gravity="left">
+
+            <ImageButton
+                android:id="@+id/imageButtonLibrary"
+                android:background="@drawable/librarybooks"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewLibraries"
+                android:text="Libraries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:width="120dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonStudentservice"
+                android:background="@drawable/studentserviceicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewStudentservice"
+                android:text="Studentservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:width="120dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonSiT"
+                android:background="@drawable/siticon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewSiT"
+                android:text="SiT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:width="120dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#848484"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textPopup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/colorTextPopup"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1"
+        />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radioButtonFreshman"
+        android:text="1 Year Student (Freshman)"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true" />
+
+    <RadioButton
+        android:id="@+id/radioButtonSophomore"
+        android:text="2 Year Student (Sophomore)"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/radioButtonFreshman" />
+
+    <RadioButton
+        android:id="@+id/radioButtonJunior"
+        android:text="3 Year Student (Junior)"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/radioButtonSophomore" />
+
+</RadioGroup>
+
+
+</LinearLayout>

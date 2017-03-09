@@ -1,0 +1,68 @@
+<resources>
+
+    //App name
+    <string name="app_name">NTNU mPLE</string>
+
+    //Main Menu
+    <string name="activity_name_main_menu">Main Menu</string>
+    <string name="activity_name_course_help">Course Help</string>
+    <string name="activity_name_facility_info">Contact</string>
+    <string name="activity_name_todo_list">To-do List</string>
+    <string name="activity_name_tools">Links</string>
+
+    //Course Help
+    <string name="activity_name_courses">Courses</string>
+    <string name="activity_name_courserating">Course Rating</string>
+    <string name="activity_name_forum">Forum</string>
+    <string name="activity_name_classmate">Classmate</string>
+    <string name="activity_name_faq">FAQ</string>
+
+    //Contact
+    <string name="activity_name_faculty">Faculties</string>
+    <string name="activity_name_library">Libraries</string>
+    <string name="activity_name_orakel">Orakel</string>
+    <string name="activity_name_studentservice">Studentservice</string>
+    <string name="activity_name_akademika">Akademika</string>
+    <string name="activity_name_sit">SiT</string>
+
+    //To-do List
+    <string name="activity_name_todolist">To-Do List</string>
+
+    //Links
+    <string name="activity_name_roomreservation">Room Reservation</string>
+    <string name="activity_name_kahoot">Kahoot</string>
+    <string name="activity_name_mazemap">Mazemap</string>
+
+
+    <string-array name="todolist_freshman">
+
+    </string-array>
+
+    <string-array name="todolist_sophomore">
+
+    </string-array>
+
+    <string-array name="todolist_junior">
+
+    </string-array>
+
+
+    <string-array name="course_names">
+        <item>IT2805</item>
+        <item>IT3010</item>
+        <item>IT3020</item>
+        <item>Master</item>
+        <item>IT28205</item>
+        <item>IT30120</item>
+        <item>IT302230</item>
+        <item>Maste324r</item>
+        <item>IT280524</item>
+        <item>IT3010243</item>
+        <item>IT302024</item>
+        <item>Master24</item>
+        <item>IT2802345</item>
+        <item>IT301240</item>
+        <item>IT3020234</item>
+        <item>Maste234r</item>
+    </string-array>
+</resources>
