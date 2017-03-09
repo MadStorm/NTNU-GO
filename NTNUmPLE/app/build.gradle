@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "lukelunix.ntnumple"
+        applicationId "lukelunix.ntnugo"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 5

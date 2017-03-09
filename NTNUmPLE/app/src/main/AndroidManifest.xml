@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lukelunix.ntnumple"
+    package="lukelunix.ntnugo"
     android:versionCode="5"
     android:versionName="1.2.2">
 
@@ -21,7 +21,7 @@
         //==========================================================================================
         //Splash Screen
         <activity
-            android:name=".mainmenu.SplashActivity"
+            android:name="lukelunix.ntnugo.mainmenu.SplashActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
@@ -34,7 +34,7 @@
         //==========================================================================================
         //Main screen
         <activity
-            android:name=".mainmenu.MainActivity"
+            android:name="lukelunix.ntnugo.mainmenu.MainActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_main_menu"
             android:screenOrientation="portrait">
@@ -45,19 +45,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".coursehelp.CoursehelpActivity"
+            android:name="lukelunix.ntnugo.coursehelp.CoursehelpActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_course_help"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeCourse" />
         <activity
-            android:name=".contact.ContactActivity"
+            android:name="lukelunix.ntnugo.contact.ContactActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_facility_info"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeContact" />
         <activity
-            android:name=".links.LinksActivity"
+            android:name="lukelunix.ntnugo.links.LinksActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_tools"
             android:screenOrientation="portrait"
@@ -65,31 +65,31 @@
         //==========================================================================================
         //Course Help Menu
         <activity
-            android:name=".coursehelp.classmate.CourseratingActivity"
+            android:name="lukelunix.ntnugo.coursehelp.classmate.CourseratingActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_courserating"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeCourse"/>
         <activity
-            android:name=".coursehelp.courses.CoursesActivity"
+            android:name="lukelunix.ntnugo.coursehelp.courses.CoursesActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_courses"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeCourse"/>
         <activity
-            android:name=".coursehelp.classmate.ClassmateActivity"
+            android:name="lukelunix.ntnugo.coursehelp.classmate.ClassmateActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_classmate"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeCourse"/>
         <activity
-            android:name=".coursehelp.forum.ForumActivity"
+            android:name="lukelunix.ntnugo.coursehelp.forum.ForumActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_forum"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeCourse"/>
         <activity
-            android:name=".coursehelp.faqaboutcourses.FAQactivity"
+            android:name="lukelunix.ntnugo.coursehelp.faqaboutcourses.FAQactivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_faq"
             android:screenOrientation="portrait"
@@ -98,37 +98,37 @@
         //==========================================================================================
         //Contact Menu
         <activity
-            android:name=".contact.faculties.FacultiesActivity"
+            android:name="lukelunix.ntnugo.contact.faculties.FacultiesActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_faculty"
             android:theme="@style/AppThemeContact"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".contact.libraries.LibrariesActivity"
+            android:name="lukelunix.ntnugo.contact.libraries.LibrariesActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_library"
             android:theme="@style/AppThemeContact"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".contact.orakel.OrakelActivity"
+            android:name="lukelunix.ntnugo.contact.orakel.OrakelActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_orakel"
             android:theme="@style/AppThemeContact"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".contact.studentservice.StudentserviceActivity"
+            android:name="lukelunix.ntnugo.contact.studentservice.StudentserviceActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_studentservice"
             android:theme="@style/AppThemeContact"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".contact.akademika.AkademikaActivity"
+            android:name="lukelunix.ntnugo.contact.akademika.AkademikaActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_akademika"
             android:theme="@style/AppThemeContact"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".contact.sit.SiTActivity"
+            android:name="lukelunix.ntnugo.contact.sit.SiTActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_sit"
             android:theme="@style/AppThemeContact"
@@ -136,7 +136,7 @@
         //==========================================================================================
         //To-do List
         <activity
-            android:name=".todolist.TodoListActivity"
+            android:name="lukelunix.ntnugo.todolist.TodoListActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_todolist"
             android:screenOrientation="portrait"
@@ -144,25 +144,25 @@
         //==========================================================================================
         //Links Menu
         <activity
-            android:name=".links.roomreservation.RoomreservationActivity"
+            android:name="lukelunix.ntnugo.links.roomreservation.RoomreservationActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="Room Reservation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeLinks" />
         <activity
-            android:name=".links.mazemap.MazemapActivity"
+            android:name="lukelunix.ntnugo.links.mazemap.MazemapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_mazemap"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeLinks" />
         <activity
-            android:name=".links.kahoot.KahootActivity"
+            android:name="lukelunix.ntnugo.links.kahoot.KahootActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/activity_name_kahoot"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeLinks" />
         <activity
-            android:name=".links.innsida.InnsidaActivity"
+            android:name="lukelunix.ntnugo.links.innsida.InnsidaActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="Innsida"
             android:screenOrientation="portrait"
@@ -170,14 +170,14 @@
         //==========================================================================================
         //Popup Menu
         <activity
-            android:name=".todolist.Popup"
+            android:name="lukelunix.ntnugo.todolist.Popup"
             android:configChanges="keyboardHidden|orientation"
             android:theme="@style/AppTheme.Popup"
             android:screenOrientation="portrait" />
 
         //Feedback in menu
         <activity
-            android:name=".feedback.FeedbackInMenu"
+            android:name="lukelunix.ntnugo.feedback.FeedbackInMenu"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Popup"/>

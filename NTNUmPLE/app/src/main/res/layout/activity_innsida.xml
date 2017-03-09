@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="lukelunix.ntnumple.links.innsida.InnsidaActivity"
+    tools:context="lukelunix.ntnugo.links.innsida.InnsidaActivity"
     android:background="#ffffff">
 
     <WebView
