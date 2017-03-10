@@ -3,7 +3,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:combat="http://schemas.android.com/apk/res-auto">
 
-    <item
+<!--    <item
         android:id="@+id/buttonDelete"
         android:title="Delete done tasks"
         combat:showAsAction="never">
@@ -13,10 +13,10 @@
         android:id="@+id/buttonDeleteAll"
         android:title="Delete all tasks"
         combat:showAsAction="never">
-    </item>
+    </item>-->
 
     <item
-        android:id="@+id/buttonPopup"
+        android:id="@+id/buttonPopupSchoolYear"
         android:title="Student's year of study"
         combat:showAsAction="never">
     </item>
